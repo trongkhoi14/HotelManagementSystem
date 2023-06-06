@@ -112,6 +112,24 @@
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="DAO\RoleDAO.cs" />
+    <Compile Include="fAdminServiceAndTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fAdminServiceAndTour.Designer.cs">
+      <DependentUpon>fAdminServiceAndTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDetailUserService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDetailUserService.Designer.cs">
+      <DependentUpon>fDetailUserService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDetailUserTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDetailUserTour.Designer.cs">
+      <DependentUpon>fDetailUserTour.cs</DependentUpon>
+    </Compile>
     <Compile Include="fHomePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,13 +142,58 @@
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="fSearchingService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSearchingService.Designer.cs">
+      <DependentUpon>fSearchingService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fSearchingTravelTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fSearchingTravelTour.Designer.cs">
+      <DependentUpon>fSearchingTravelTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fServiceHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fServiceHelp.Designer.cs">
+      <DependentUpon>fServiceHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fUserServiceAndTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fUserServiceAndTour.Designer.cs">
+      <DependentUpon>fUserServiceAndTour.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fAdminServiceAndTour.resx">
+      <DependentUpon>fAdminServiceAndTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDetailUserService.resx">
+      <DependentUpon>fDetailUserService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDetailUserTour.resx">
+      <DependentUpon>fDetailUserTour.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fHomePage.resx">
       <DependentUpon>fHomePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSearchingService.resx">
+      <DependentUpon>fSearchingService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fSearchingTravelTour.resx">
+      <DependentUpon>fSearchingTravelTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fServiceHelp.resx">
+      <DependentUpon>fServiceHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fUserServiceAndTour.resx">
+      <DependentUpon>fUserServiceAndTour.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

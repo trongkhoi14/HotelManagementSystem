@@ -22,9 +22,20 @@ namespace QuanLyDeAn
             this.Close();
         }
 
-        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        private void adminServiceAndTourToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            fAdminServiceAndTour f = new fAdminServiceAndTour();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void userServiceAndTourToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            fUserServiceAndTour f = new fUserServiceAndTour();
+            f.ShowDialog();
+            this.Show();
         }
     }
 }

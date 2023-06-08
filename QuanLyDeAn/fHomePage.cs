@@ -26,5 +26,13 @@ namespace QuanLyDeAn
         {
             
         }
+
+        private void checkinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fCheckIn f = new fCheckIn();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }

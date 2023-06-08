@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace QuanLyDeAn
 {
-    public partial class fCheckIn : Form
+    public partial class fDKThongTinLuuTru : Form
     {
-        public fCheckIn()
+        public fDKThongTinLuuTru()
         {
             InitializeComponent();
-        }
-
-        private void btnDKTTLT_Click(object sender, EventArgs e)
-        {
-            fDKThongTinLuuTru f = new fDKThongTinLuuTru();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
         }
     }
 }

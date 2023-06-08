@@ -112,6 +112,18 @@
     <Compile Include="DAO\AccountDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="DAO\RoleDAO.cs" />
+    <Compile Include="fCheckIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCheckIn.Designer.cs">
+      <DependentUpon>fCheckIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDKThongTinLuuTru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDKThongTinLuuTru.Designer.cs">
+      <DependentUpon>fDKThongTinLuuTru.cs</DependentUpon>
+    </Compile>
     <Compile Include="fHomePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +138,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fCheckIn.resx">
+      <DependentUpon>fCheckIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDKThongTinLuuTru.resx">
+      <DependentUpon>fDKThongTinLuuTru.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fHomePage.resx">
       <DependentUpon>fHomePage.cs</DependentUpon>
     </EmbeddedResource>

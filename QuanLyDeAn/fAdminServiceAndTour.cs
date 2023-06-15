@@ -68,21 +68,5 @@ namespace QuanLyDeAn
             f.ShowDialog();
             this.Show();
         }
-
-        private void serviceSearchingBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            fSearchingService f = new fSearchingService();
-            f.ShowDialog();
-            this.Show();
-        }
-
-        private void tourSearchingBtn_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            fSearchingTravelTour f = new fSearchingTravelTour();
-            f.ShowDialog();
-            this.Show();
-        }
     }
 }

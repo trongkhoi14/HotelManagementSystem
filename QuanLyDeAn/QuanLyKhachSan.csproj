@@ -154,12 +154,6 @@
     <Compile Include="fSearchingTravelTour.Designer.cs">
       <DependentUpon>fSearchingTravelTour.cs</DependentUpon>
     </Compile>
-    <Compile Include="fServiceHelp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="fServiceHelp.Designer.cs">
-      <DependentUpon>fServiceHelp.cs</DependentUpon>
-    </Compile>
     <Compile Include="fUserServiceAndTour.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -188,9 +182,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fSearchingTravelTour.resx">
       <DependentUpon>fSearchingTravelTour.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="fServiceHelp.resx">
-      <DependentUpon>fServiceHelp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fUserServiceAndTour.resx">
       <DependentUpon>fUserServiceAndTour.cs</DependentUpon>

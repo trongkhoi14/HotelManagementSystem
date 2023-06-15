@@ -17,14 +17,6 @@ namespace QuanLyDeAn
             InitializeComponent();
         }
 
-        private void service_helpBtn_Click(object sender, EventArgs e)
-        {
-            fServiceHelp f = new fServiceHelp();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
-        }
-
         private void service_SearchingBtn_Click(object sender, EventArgs e)
         {
             fSearchingService f = new fSearchingService();
@@ -37,14 +29,6 @@ namespace QuanLyDeAn
         {
             MessageBox.Show("Đăng ký thành công! Vui lòng liên hệ lễ tân để nhận phiếu dịch vụ.");
             this.Close();
-        }
-
-        private void tour_helpBtn_Click(object sender, EventArgs e)
-        {
-            fServiceHelp f = new fServiceHelp();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
         }
 
         private void tourSearchingBtn_Click(object sender, EventArgs e)

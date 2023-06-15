@@ -268,7 +268,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.service_userInfoPanel);
             this.Name = "fDetailUserService";
-            this.Text = "fDetailUserServiceForm";
+            this.Text = "Chi tiết khách hàng";
             this.service_userInfoPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.serviceFormPanel.ResumeLayout(false);

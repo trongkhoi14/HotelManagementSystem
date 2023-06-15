@@ -254,7 +254,7 @@
             this.Controls.Add(this.listTourLabel);
             this.Controls.Add(this.tourDtgv);
             this.Name = "fSearchingTravelTour";
-            this.Text = "fSearchingTravelTour";
+            this.Text = "Tra cứu tour du lịch";
             ((System.ComponentModel.ISupportInitialize)(this.tourDtgv)).EndInit();
             this.tourInfoPanel.ResumeLayout(false);
             this.supplierPanel.ResumeLayout(false);

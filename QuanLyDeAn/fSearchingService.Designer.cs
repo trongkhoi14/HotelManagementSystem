@@ -32,6 +32,7 @@
             this.listServiceLabel = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cancelBtn = new System.Windows.Forms.Button();
+            this.confirmBtn = new System.Windows.Forms.Button();
             this.chosenServiceLabel = new System.Windows.Forms.Label();
             this.chosenServiceDtgv = new System.Windows.Forms.DataGridView();
             this.serviceInfoPanel = new System.Windows.Forms.Panel();
@@ -44,7 +45,6 @@
             this.serviceNamePanel = new System.Windows.Forms.Panel();
             this.serviceName = new System.Windows.Forms.Label();
             this.serviceNameTextBox = new System.Windows.Forms.TextBox();
-            this.confirmBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.serviceDtgv)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chosenServiceDtgv)).BeginInit();
@@ -92,6 +92,15 @@
             this.cancelBtn.TabIndex = 10;
             this.cancelBtn.Text = "Thoát";
             this.cancelBtn.UseVisualStyleBackColor = true;
+            // 
+            // confirmBtn
+            // 
+            this.confirmBtn.Location = new System.Drawing.Point(228, 474);
+            this.confirmBtn.Name = "confirmBtn";
+            this.confirmBtn.Size = new System.Drawing.Size(90, 23);
+            this.confirmBtn.TabIndex = 8;
+            this.confirmBtn.Text = "Xác nhận";
+            this.confirmBtn.UseVisualStyleBackColor = true;
             // 
             // chosenServiceLabel
             // 
@@ -201,15 +210,6 @@
             this.serviceNameTextBox.Size = new System.Drawing.Size(292, 22);
             this.serviceNameTextBox.TabIndex = 0;
             // 
-            // confirmBtn
-            // 
-            this.confirmBtn.Location = new System.Drawing.Point(228, 474);
-            this.confirmBtn.Name = "confirmBtn";
-            this.confirmBtn.Size = new System.Drawing.Size(90, 23);
-            this.confirmBtn.TabIndex = 8;
-            this.confirmBtn.Text = "Xác nhận";
-            this.confirmBtn.UseVisualStyleBackColor = true;
-            // 
             // fSearchingService
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -219,7 +219,7 @@
             this.Controls.Add(this.listServiceLabel);
             this.Controls.Add(this.serviceDtgv);
             this.Name = "fSearchingService";
-            this.Text = "fSearchingService";
+            this.Text = "Tra cứu dịch vụ";
             ((System.ComponentModel.ISupportInitialize)(this.serviceDtgv)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

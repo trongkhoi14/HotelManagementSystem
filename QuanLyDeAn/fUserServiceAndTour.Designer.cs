@@ -34,7 +34,6 @@
             this.chosenServiceLabel = new System.Windows.Forms.Label();
             this.chosenServiceDataGridView = new System.Windows.Forms.DataGridView();
             this.service_userInfoPanel = new System.Windows.Forms.Panel();
-            this.service_helpBtn = new System.Windows.Forms.Button();
             this.service_confirmBtn = new System.Windows.Forms.Button();
             this.service_SearchingBtn = new System.Windows.Forms.Button();
             this.service_userIdPanel = new System.Windows.Forms.Panel();
@@ -48,7 +47,6 @@
             this.chosenTourLabel = new System.Windows.Forms.Label();
             this.chosenTourDataGridView = new System.Windows.Forms.DataGridView();
             this.tour_userInfoPanel = new System.Windows.Forms.Panel();
-            this.tour_helpBtn = new System.Windows.Forms.Button();
             this.tour_confirmBtn = new System.Windows.Forms.Button();
             this.tourSearchingBtn = new System.Windows.Forms.Button();
             this.tour_userIdPanel = new System.Windows.Forms.Panel();
@@ -124,7 +122,6 @@
             // 
             // service_userInfoPanel
             // 
-            this.service_userInfoPanel.Controls.Add(this.service_helpBtn);
             this.service_userInfoPanel.Controls.Add(this.service_confirmBtn);
             this.service_userInfoPanel.Controls.Add(this.service_SearchingBtn);
             this.service_userInfoPanel.Controls.Add(this.service_userIdPanel);
@@ -133,16 +130,6 @@
             this.service_userInfoPanel.Name = "service_userInfoPanel";
             this.service_userInfoPanel.Size = new System.Drawing.Size(423, 453);
             this.service_userInfoPanel.TabIndex = 1;
-            // 
-            // service_helpBtn
-            // 
-            this.service_helpBtn.Location = new System.Drawing.Point(124, 69);
-            this.service_helpBtn.Name = "service_helpBtn";
-            this.service_helpBtn.Size = new System.Drawing.Size(75, 23);
-            this.service_helpBtn.TabIndex = 5;
-            this.service_helpBtn.Text = "Giúp đỡ";
-            this.service_helpBtn.UseVisualStyleBackColor = true;
-            this.service_helpBtn.Click += new System.EventHandler(this.service_helpBtn_Click);
             // 
             // service_confirmBtn
             // 
@@ -256,7 +243,6 @@
             // 
             // tour_userInfoPanel
             // 
-            this.tour_userInfoPanel.Controls.Add(this.tour_helpBtn);
             this.tour_userInfoPanel.Controls.Add(this.tour_confirmBtn);
             this.tour_userInfoPanel.Controls.Add(this.tourSearchingBtn);
             this.tour_userInfoPanel.Controls.Add(this.tour_userIdPanel);
@@ -265,16 +251,6 @@
             this.tour_userInfoPanel.Name = "tour_userInfoPanel";
             this.tour_userInfoPanel.Size = new System.Drawing.Size(423, 453);
             this.tour_userInfoPanel.TabIndex = 1;
-            // 
-            // tour_helpBtn
-            // 
-            this.tour_helpBtn.Location = new System.Drawing.Point(126, 69);
-            this.tour_helpBtn.Name = "tour_helpBtn";
-            this.tour_helpBtn.Size = new System.Drawing.Size(75, 23);
-            this.tour_helpBtn.TabIndex = 5;
-            this.tour_helpBtn.Text = "Giúp đỡ";
-            this.tour_helpBtn.UseVisualStyleBackColor = true;
-            this.tour_helpBtn.Click += new System.EventHandler(this.tour_helpBtn_Click);
             // 
             // tour_confirmBtn
             // 
@@ -353,7 +329,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.userTabControl);
             this.Name = "fUserServiceAndTour";
-            this.Text = "fUserServiceAndTour";
+            this.Text = "Dịch vụ và tour";
             this.userTabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.servicePanel.ResumeLayout(false);
@@ -395,12 +371,10 @@
         private System.Windows.Forms.DataGridView chosenServiceDataGridView;
         private System.Windows.Forms.Button service_SearchingBtn;
         private System.Windows.Forms.Button service_confirmBtn;
-        private System.Windows.Forms.Button service_helpBtn;
         private System.Windows.Forms.Panel tourPanel;
         private System.Windows.Forms.Label chosenTourLabel;
         private System.Windows.Forms.DataGridView chosenTourDataGridView;
         private System.Windows.Forms.Panel tour_userInfoPanel;
-        private System.Windows.Forms.Button tour_helpBtn;
         private System.Windows.Forms.Button tour_confirmBtn;
         private System.Windows.Forms.Button tourSearchingBtn;
         private System.Windows.Forms.Panel tour_userIdPanel;

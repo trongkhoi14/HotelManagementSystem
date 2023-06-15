@@ -64,7 +64,7 @@
             // 
             this.adminServiceAndTourToolStripMenuItem.Name = "adminServiceAndTourToolStripMenuItem";
             this.adminServiceAndTourToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.adminServiceAndTourToolStripMenuItem.Text = "Service and tour";
+            this.adminServiceAndTourToolStripMenuItem.Text = "Dịch vụ và tour";
             this.adminServiceAndTourToolStripMenuItem.Click += new System.EventHandler(this.adminServiceAndTourToolStripMenuItem_Click);
             // 
             // userToolStripMenuItem
@@ -80,7 +80,7 @@
             // 
             this.userServiceAndTourToolStripMenuItem.Name = "userServiceAndTourToolStripMenuItem";
             this.userServiceAndTourToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.userServiceAndTourToolStripMenuItem.Text = "Service and tour";
+            this.userServiceAndTourToolStripMenuItem.Text = "Dịch vụ và tour";
             this.userServiceAndTourToolStripMenuItem.Click += new System.EventHandler(this.userServiceAndTourToolStripMenuItem_Click);
             // 
             // thôngTinTàiKhoảnToolStripMenuItem

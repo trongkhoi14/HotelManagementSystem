@@ -191,7 +191,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.service_userInfoPanel);
             this.Name = "fDetailUserTour";
-            this.Text = "fDetailUserTour";
+            this.Text = "Chi tiết khách hàng";
             this.acceptedServiceFormPanel.ResumeLayout(false);
             this.acceptedServiceFormPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.acceptedServiceFormDtgv)).EndInit();

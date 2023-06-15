@@ -69,6 +69,7 @@ namespace QuanLyDeAn
             this.Show();
         }
 
+<<<<<<< Updated upstream
         private void serviceSearchingBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -83,6 +84,46 @@ namespace QuanLyDeAn
             fSearchingTravelTour f = new fSearchingTravelTour();
             f.ShowDialog();
             this.Show();
+=======
+        private void tour_cancelBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void service_cancelBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void serviceSearchBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void serviceAddBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void serviceDeleteBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tourSearchBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tourAddBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tourDeleteBtn_Click(object sender, EventArgs e)
+        {
+
+>>>>>>> Stashed changes
         }
     }
 }

@@ -16,15 +16,17 @@ namespace QuanLyDeAn
         {
             InitializeComponent();
         }
-
-        private void prepayBtn_Click(object sender, EventArgs e)
+        private void service_searchBtn_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void service_searchBtn_Click(object sender, EventArgs e)
+        private void serviceFromDetailBtn_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            fServiceFormDetail f = new fServiceFormDetail();
+            f.ShowDialog();
+            this.Show();
         }
     }
 }

@@ -16,17 +16,6 @@ namespace QuanLyDeAn
         {
             InitializeComponent();
         }
-
-        private void confirmBtn_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void cancelBtn_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void serviceSearchingBtn_Click(object sender, EventArgs e)
         {
 
@@ -38,6 +27,11 @@ namespace QuanLyDeAn
         }
 
         private void deleteBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void confirmBtn_Click(object sender, EventArgs e)
         {
 
         }

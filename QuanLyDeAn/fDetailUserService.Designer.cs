@@ -33,9 +33,9 @@
             this.serviceFormPanel = new System.Windows.Forms.Panel();
             this.serviceFormLabel = new System.Windows.Forms.Label();
             this.serviceFormTextBox = new System.Windows.Forms.TextBox();
-            this.confirmFormIdPanel = new System.Windows.Forms.Panel();
-            this.confirmFormIdLabel = new System.Windows.Forms.Label();
-            this.confirmFormIdTextBox = new System.Windows.Forms.TextBox();
+            this.bookingFormIdPanel = new System.Windows.Forms.Panel();
+            this.bookingFormIdLabel = new System.Windows.Forms.Label();
+            this.bookingFormIdTextBox = new System.Windows.Forms.TextBox();
             this.service_userIdPanel = new System.Windows.Forms.Panel();
             this.service_userId = new System.Windows.Forms.Label();
             this.service_userIdTextBox = new System.Windows.Forms.TextBox();
@@ -47,13 +47,13 @@
             this.confirmFormDtgv = new System.Windows.Forms.DataGridView();
             this.confirmFormLabel = new System.Windows.Forms.Label();
             this.acceptedServiceFormPanel = new System.Windows.Forms.Panel();
-            this.prepayBtn = new System.Windows.Forms.Button();
+            this.serviceFromDetailBtn = new System.Windows.Forms.Button();
             this.acceptedServiceFormDtgv = new System.Windows.Forms.DataGridView();
             this.acceptedServiceFormLabel = new System.Windows.Forms.Label();
             this.service_userInfoPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.serviceFormPanel.SuspendLayout();
-            this.confirmFormIdPanel.SuspendLayout();
+            this.bookingFormIdPanel.SuspendLayout();
             this.service_userIdPanel.SuspendLayout();
             this.service_userNamePanel.SuspendLayout();
             this.confirmFormPanel.SuspendLayout();
@@ -75,7 +75,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.serviceFormPanel);
-            this.panel1.Controls.Add(this.confirmFormIdPanel);
+            this.panel1.Controls.Add(this.bookingFormIdPanel);
             this.panel1.Controls.Add(this.service_userIdPanel);
             this.panel1.Controls.Add(this.service_userNamePanel);
             this.panel1.Controls.Add(this.service_searchBtn);
@@ -109,30 +109,30 @@
             this.serviceFormTextBox.Size = new System.Drawing.Size(275, 22);
             this.serviceFormTextBox.TabIndex = 0;
             // 
-            // confirmFormIdPanel
+            // bookingFormIdPanel
             // 
-            this.confirmFormIdPanel.Controls.Add(this.confirmFormIdLabel);
-            this.confirmFormIdPanel.Controls.Add(this.confirmFormIdTextBox);
-            this.confirmFormIdPanel.Location = new System.Drawing.Point(3, 61);
-            this.confirmFormIdPanel.Name = "confirmFormIdPanel";
-            this.confirmFormIdPanel.Size = new System.Drawing.Size(394, 27);
-            this.confirmFormIdPanel.TabIndex = 5;
+            this.bookingFormIdPanel.Controls.Add(this.bookingFormIdLabel);
+            this.bookingFormIdPanel.Controls.Add(this.bookingFormIdTextBox);
+            this.bookingFormIdPanel.Location = new System.Drawing.Point(3, 61);
+            this.bookingFormIdPanel.Name = "bookingFormIdPanel";
+            this.bookingFormIdPanel.Size = new System.Drawing.Size(394, 27);
+            this.bookingFormIdPanel.TabIndex = 5;
             // 
-            // confirmFormIdLabel
+            // bookingFormIdLabel
             // 
-            this.confirmFormIdLabel.AutoSize = true;
-            this.confirmFormIdLabel.Location = new System.Drawing.Point(4, 4);
-            this.confirmFormIdLabel.Name = "confirmFormIdLabel";
-            this.confirmFormIdLabel.Size = new System.Drawing.Size(87, 16);
-            this.confirmFormIdLabel.TabIndex = 0;
-            this.confirmFormIdLabel.Text = "Mã phiếu NP:";
+            this.bookingFormIdLabel.AutoSize = true;
+            this.bookingFormIdLabel.Location = new System.Drawing.Point(4, 4);
+            this.bookingFormIdLabel.Name = "bookingFormIdLabel";
+            this.bookingFormIdLabel.Size = new System.Drawing.Size(86, 16);
+            this.bookingFormIdLabel.TabIndex = 0;
+            this.bookingFormIdLabel.Text = "Mã phiếu ĐP:";
             // 
-            // confirmFormIdTextBox
+            // bookingFormIdTextBox
             // 
-            this.confirmFormIdTextBox.Location = new System.Drawing.Point(116, 1);
-            this.confirmFormIdTextBox.Name = "confirmFormIdTextBox";
-            this.confirmFormIdTextBox.Size = new System.Drawing.Size(275, 22);
-            this.confirmFormIdTextBox.TabIndex = 0;
+            this.bookingFormIdTextBox.Location = new System.Drawing.Point(116, 1);
+            this.bookingFormIdTextBox.Name = "bookingFormIdTextBox";
+            this.bookingFormIdTextBox.Size = new System.Drawing.Size(275, 22);
+            this.bookingFormIdTextBox.TabIndex = 0;
             // 
             // service_userIdPanel
             // 
@@ -186,11 +186,11 @@
             // 
             // service_searchBtn
             // 
-            this.service_searchBtn.Location = new System.Drawing.Point(311, 148);
+            this.service_searchBtn.Location = new System.Drawing.Point(197, 148);
             this.service_searchBtn.Name = "service_searchBtn";
-            this.service_searchBtn.Size = new System.Drawing.Size(89, 23);
+            this.service_searchBtn.Size = new System.Drawing.Size(203, 23);
             this.service_searchBtn.TabIndex = 4;
-            this.service_searchBtn.Text = "Tìm kiếm";
+            this.service_searchBtn.Text = "Tìm kiếm phiếu dịch vụ";
             this.service_searchBtn.UseVisualStyleBackColor = true;
             this.service_searchBtn.Click += new System.EventHandler(this.service_searchBtn_Click);
             // 
@@ -224,7 +224,7 @@
             // 
             // acceptedServiceFormPanel
             // 
-            this.acceptedServiceFormPanel.Controls.Add(this.prepayBtn);
+            this.acceptedServiceFormPanel.Controls.Add(this.serviceFromDetailBtn);
             this.acceptedServiceFormPanel.Controls.Add(this.acceptedServiceFormDtgv);
             this.acceptedServiceFormPanel.Controls.Add(this.acceptedServiceFormLabel);
             this.acceptedServiceFormPanel.Location = new System.Drawing.Point(3, 249);
@@ -232,15 +232,15 @@
             this.acceptedServiceFormPanel.Size = new System.Drawing.Size(625, 278);
             this.acceptedServiceFormPanel.TabIndex = 4;
             // 
-            // prepayBtn
+            // serviceFromDetailBtn
             // 
-            this.prepayBtn.Location = new System.Drawing.Point(418, 252);
-            this.prepayBtn.Name = "prepayBtn";
-            this.prepayBtn.Size = new System.Drawing.Size(204, 23);
-            this.prepayBtn.TabIndex = 7;
-            this.prepayBtn.Text = "Tính phí dịch vụ tạm thời";
-            this.prepayBtn.UseVisualStyleBackColor = true;
-            this.prepayBtn.Click += new System.EventHandler(this.prepayBtn_Click);
+            this.serviceFromDetailBtn.Location = new System.Drawing.Point(527, 252);
+            this.serviceFromDetailBtn.Name = "serviceFromDetailBtn";
+            this.serviceFromDetailBtn.Size = new System.Drawing.Size(95, 23);
+            this.serviceFromDetailBtn.TabIndex = 7;
+            this.serviceFromDetailBtn.Text = "Chi tiết phiếu";
+            this.serviceFromDetailBtn.UseVisualStyleBackColor = true;
+            this.serviceFromDetailBtn.Click += new System.EventHandler(this.serviceFromDetailBtn_Click);
             // 
             // acceptedServiceFormDtgv
             // 
@@ -273,8 +273,8 @@
             this.panel1.ResumeLayout(false);
             this.serviceFormPanel.ResumeLayout(false);
             this.serviceFormPanel.PerformLayout();
-            this.confirmFormIdPanel.ResumeLayout(false);
-            this.confirmFormIdPanel.PerformLayout();
+            this.bookingFormIdPanel.ResumeLayout(false);
+            this.bookingFormIdPanel.PerformLayout();
             this.service_userIdPanel.ResumeLayout(false);
             this.service_userIdPanel.PerformLayout();
             this.service_userNamePanel.ResumeLayout(false);
@@ -296,22 +296,22 @@
         private System.Windows.Forms.DataGridView confirmFormDtgv;
         private System.Windows.Forms.Label confirmFormLabel;
         private System.Windows.Forms.Panel acceptedServiceFormPanel;
-        private System.Windows.Forms.Button prepayBtn;
+        private System.Windows.Forms.Button serviceFromDetailBtn;
         private System.Windows.Forms.DataGridView acceptedServiceFormDtgv;
         private System.Windows.Forms.Label acceptedServiceFormLabel;
         private System.Windows.Forms.Button service_searchBtn;
         private System.Windows.Forms.Panel service_userIdPanel;
         private System.Windows.Forms.Label service_userId;
         private System.Windows.Forms.TextBox service_userIdTextBox;
-        private System.Windows.Forms.Panel service_userNamePanel;
-        private System.Windows.Forms.Label service_userName;
-        private System.Windows.Forms.TextBox service_userNameTextBox;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel confirmFormIdPanel;
-        private System.Windows.Forms.Label confirmFormIdLabel;
-        private System.Windows.Forms.TextBox confirmFormIdTextBox;
+        private System.Windows.Forms.Panel bookingFormIdPanel;
+        private System.Windows.Forms.Label bookingFormIdLabel;
+        private System.Windows.Forms.TextBox bookingFormIdTextBox;
         private System.Windows.Forms.Panel serviceFormPanel;
         private System.Windows.Forms.Label serviceFormLabel;
         private System.Windows.Forms.TextBox serviceFormTextBox;
+        private System.Windows.Forms.Panel service_userNamePanel;
+        private System.Windows.Forms.Label service_userName;
+        private System.Windows.Forms.TextBox service_userNameTextBox;
     }
 }

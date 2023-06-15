@@ -93,6 +93,19 @@
             this.cancelBtn.Text = "Thoát";
             this.cancelBtn.UseVisualStyleBackColor = true;
             // 
+<<<<<<< Updated upstream
+=======
+            // confirmBtn
+            // 
+            this.confirmBtn.Location = new System.Drawing.Point(228, 474);
+            this.confirmBtn.Name = "confirmBtn";
+            this.confirmBtn.Size = new System.Drawing.Size(90, 23);
+            this.confirmBtn.TabIndex = 8;
+            this.confirmBtn.Text = "Xác nhận";
+            this.confirmBtn.UseVisualStyleBackColor = true;
+            this.confirmBtn.Click += new System.EventHandler(this.confirmBtn_Click);
+            // 
+>>>>>>> Stashed changes
             // chosenServiceLabel
             // 
             this.chosenServiceLabel.AutoSize = true;
@@ -132,6 +145,7 @@
             this.deleteBtn.TabIndex = 5;
             this.deleteBtn.Text = "Xóa";
             this.deleteBtn.UseVisualStyleBackColor = true;
+            this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
             // 
             // addBtn
             // 
@@ -141,6 +155,7 @@
             this.addBtn.TabIndex = 4;
             this.addBtn.Text = "Thêm";
             this.addBtn.UseVisualStyleBackColor = true;
+            this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
             // serviceSearchingBtn
             // 
@@ -150,6 +165,7 @@
             this.serviceSearchingBtn.TabIndex = 3;
             this.serviceSearchingBtn.Text = "Tìm kiếm";
             this.serviceSearchingBtn.UseVisualStyleBackColor = true;
+            this.serviceSearchingBtn.Click += new System.EventHandler(this.serviceSearchingBtn_Click);
             // 
             // serviceIdPanel
             // 

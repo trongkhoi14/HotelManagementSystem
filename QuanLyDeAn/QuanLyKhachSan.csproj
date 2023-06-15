@@ -154,11 +154,19 @@
     <Compile Include="fSearchingTravelTour.Designer.cs">
       <DependentUpon>fSearchingTravelTour.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="fServiceHelp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fServiceHelp.Designer.cs">
       <DependentUpon>fServiceHelp.cs</DependentUpon>
+=======
+    <Compile Include="fServiceFormDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fServiceFormDetail.Designer.cs">
+      <DependentUpon>fServiceFormDetail.cs</DependentUpon>
+>>>>>>> Stashed changes
     </Compile>
     <Compile Include="fUserServiceAndTour.cs">
       <SubType>Form</SubType>
@@ -189,8 +197,13 @@
     <EmbeddedResource Include="fSearchingTravelTour.resx">
       <DependentUpon>fSearchingTravelTour.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
     <EmbeddedResource Include="fServiceHelp.resx">
       <DependentUpon>fServiceHelp.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="fServiceFormDetail.resx">
+      <DependentUpon>fServiceFormDetail.cs</DependentUpon>
+>>>>>>> Stashed changes
     </EmbeddedResource>
     <EmbeddedResource Include="fUserServiceAndTour.resx">
       <DependentUpon>fUserServiceAndTour.cs</DependentUpon>

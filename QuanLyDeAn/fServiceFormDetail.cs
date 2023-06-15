@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace QuanLyDeAn
 {
-    public partial class fDetailUserTour : Form
+    public partial class fServiceFormDetail : Form
     {
-        public fDetailUserTour()
+        public fServiceFormDetail()
         {
             InitializeComponent();
         }
 
-        private void service_searchBtn_Click(object sender, EventArgs e)
+        private void prepaidBtn_Click(object sender, EventArgs e)
         {
 
         }

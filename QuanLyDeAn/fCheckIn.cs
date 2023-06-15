@@ -17,12 +17,27 @@ namespace QuanLyDeAn
             InitializeComponent();
         }
 
-        private void btnDKTTLT_Click(object sender, EventArgs e)
+        private void btnDangKyThongTinLuuTru_Click(object sender, EventArgs e)
         {
             fDKThongTinLuuTru f = new fDKThongTinLuuTru();
             this.Hide();
             f.ShowDialog();
             this.Show();
+        }
+
+        private void btnDieuChinhDichVu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHoanTat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTrangChu_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

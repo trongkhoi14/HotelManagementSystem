@@ -62,10 +62,12 @@ namespace QuanLyDeAn.DAO
             // Tìm xem có tài khoản hay chưa, nếu đã có thì truy vấn trả về số dòng > 0 
             string query = string.Format("SELECT * FROM ALL_USERS WHERE USERNAME = '{0}'", username);
             DataTable result = DataProvider.Instance.ExecuteQuery(query);
+            // getUserbyUsername, Datable a = userDB.getUserByUsername(username)
             if(result.Rows.Count > 0)
             {
                 return false;
             }
+            // userDB.addUser(username, password)
             DataProvider.Instance.ExecuteOracleProcedure("sp_addUser", new OracleParameter("username", username), new OracleParameter("password", password));
             return true;
         }

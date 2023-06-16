@@ -17,6 +17,24 @@ namespace QuanLyDeAn
             InitializeComponent();
         }
 
+        private void btnThemKhachHang_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void btnXoaKhachHang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHoanTat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTroLai_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
